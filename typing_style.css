@@ -274,3 +274,147 @@ footer {
         flex: 1 0 calc(100% - 20px);
     }
 }
+@media (max-width: 1024px) {
+    .intro-section {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .intro-text {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .intro-text h1 {
+        font-size: 28px;
+    }
+
+    .intro-text p {
+        font-size: 16px;
+    }
+
+    .intro-text .btn {
+        padding: 8px 15px;
+        font-size: 16px;
+    }
+
+    .intro-image img {
+        max-width: 100%;
+    }
+
+    .flex-section {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .flex-section .text-content {
+        padding: 0;
+    }
+
+    .flex-section h1 {
+        font-size: 28px;
+    }
+
+    .flex-section p {
+        font-size: 16px;
+    }
+
+    .tiles-container {
+        flex-wrap: wrap;
+    }
+
+    .tile {
+        flex: 1 0 calc(50% - 10px);
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro-section {
+        padding: 15px;
+    }
+
+    .intro-text h1 {
+        font-size: 24px;
+    }
+
+    .intro-text p {
+        font-size: 14px;
+    }
+
+    .intro-text .btn {
+        font-size: 14px;
+    }
+
+    .flex-section {
+        padding: 5px;
+    }
+
+    .flex-section h1 {
+        font-size: 24px;
+    }
+
+    .flex-section p {
+        font-size: 14px;
+    }
+
+    .tiles-container .tile {
+        flex: 1 0 100%;
+        margin-bottom: 10px;
+    }
+
+    .tiles2-container .tiles {
+        flex: 1 0 calc(100% - 10px);
+    }
+
+    section iframe {
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .intro-section {
+        padding: 10px;
+    }
+
+    .intro-text h1 {
+        font-size: 20px;
+    }
+
+    .intro-text p {
+        font-size: 12px;
+    }
+
+    .intro-text .btn {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .tiles-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .tiles-container .tile {
+        flex: 1 0 100%;
+    }
+
+    .tiles2-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .tiles2-container .tiles {
+        flex: 1 0 100%;
+    }
+
+    footer {
+        font-size: 12px;
+        padding: 10px;
+    }
+}
